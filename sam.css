@@ -1,0 +1,321 @@
+
+         
+          *{ 
+               margin: 0%;
+               box-sizing: content-box;
+           }
+          main ul
+           {
+               background-color: #14d0da;
+               display:flex;
+               width: max-content;
+               gap: 50px;
+               align-items: flex-end;
+               
+           }
+          main ul li
+          {
+               background-color: pink; 
+               border-bottom: 2px solid ;
+          }
+          main>p
+          {
+               line-height: 18px;
+               border: 2px solid;
+          }
+          header
+          {
+               position: relative;
+               padding: 10px;
+               background-color: #08a7af;
+               display:inline-flexbox;              
+               max-width:100%;
+               min-width: 500px;
+          }
+          header h1
+          {  
+               display: inline;
+               color:white;
+               background: -webkit-radial-gradient(#14d0da, #034a80,rgba(15, 202, 68, 0.677));
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent; 
+          }
+          header nav
+          {
+               display: inline-block;   
+               width: max-content;
+               position: relative;
+               background-color: aquamarine;
+               height: max-content;
+          }
+          header nav li
+          {
+               display: inline-flex;
+               
+          }
+          header nav li a
+           {
+               position: relative;
+               text-decoration: none;
+               margin-top: 0%;
+               margin-left: 150px;
+               padding: 10px 5px;
+          }
+          header nav li  :hover
+          {
+              background:  #14d0da;
+              position: relative;
+              
+          }
+          header .login_signup{
+               display: inline;
+               position:absolute;
+               top: 19px;
+               right: 20px;
+               justify-items: end;
+          }
+          table
+          {
+               text-align:center;
+               
+               table-layout: auto;
+               empty-cells:show;
+          }
+          .overflow
+          {
+               height: 3cm;
+               width: 150px; 
+               overflow-x: auto;
+              
+               overflow-y:visible;
+               background-clip: padding-box;
+          }
+          table
+          {
+               display: inline-block;
+          }
+          table th
+          {
+               background-color: rgb(12, 132, 146);
+          }
+          table,th,td
+          {    border-collapse: collapse; 
+               height: 50px;
+               border:2px solid; 
+               vertical-align:middle;
+          }
+          table tr:hover
+          {
+               background-color: bisque;
+          }
+          
+          div p
+          {
+               margin: 0px;
+          }
+          .display
+          {
+               border:2px solid;
+               width: max-content;
+               height:max-content;
+               box-sizing: content-box;
+               
+               position: relative;
+               display:inline;
+               left: 50px;
+          }
+          .box1
+          {    
+               position: relative;    
+               margin-top: 0px;          
+               height: 2cm;
+               width: 2cm;
+               border: 2px solid;
+               display: block;
+          }
+          .box2
+          {    
+               border: 2px solid;
+               position: relative;              
+               height: 2cm;
+               width: 2cm;
+               display: block;
+          }
+          .box3
+          {
+               border: 2px solid;
+               position: relative;     
+               height: 2cm;
+               width: 2cm;
+               display: block;
+          }
+          .max-width
+          {
+               position: relative;
+               
+               background-color: #14d0da;
+     
+               min-height: 5cm;
+               width: 250px;
+               min-width: 300px;
+               padding: 0 40px;
+          }
+          .max-width p
+          {
+               overflow-wrap:break-word;
+               justify-content: center;
+               align-items: center;
+               top: auto;
+               
+               bottom:auto;
+               border: 2px solid;
+          }
+          .z-index
+          {
+               position: relative;
+               left:50px;
+               margin: auto;
+               height: 7cm;
+               z-index:-10;
+               width:50%;
+               border: 2px solid;
+               background-color: antiquewhite;
+          }
+          .box1,.box2,.box3{text-align: center;
+          vertical-align: middle;}
+          .box1
+          {
+               position: relative; 
+               top:20px;
+               left:50px;
+               background-color: aqua;
+               z-index:2;
+          }
+          .box2
+          {
+               position: absolute;
+               left:70px;
+               background-color: pink;
+               z-index:5 ;
+          }
+          .box3
+          {
+               position: relative;
+               z-index:-6;
+               top: -15px;
+               left: 90px;
+               background:rgb(22, 211, 72);
+          }
+          .overflow_handle
+          {
+               width: 400px;
+               text-align: justify;
+               height: 80px;
+               color: black;
+               background-color: rgb(13, 121, 85);
+               overflow-x: hidden;
+               overflow-y: scroll;
+              
+          }
+          .overflow_handle img
+          {
+               float: left;
+               margin-left: 30px;
+          }
+          .float
+          {
+               border: 2px solid;
+               /* float: right; */
+               display: block;
+               float: right;
+          }
+          .float 
+          {
+               border: 2px solid;
+               height: max-content;
+               width:400px;
+          }
+          .bo1
+          {
+               height: 50px;
+               width: 50px;
+               float:left;
+               
+               background-color: rgb(7, 74, 133);
+               border:2px solid;
+          }
+          .bo2
+          {
+               height: 50px;
+               width: 50px;
+               float: left;
+               
+               background-color: palegreen;
+               border:2px solid;
+               overflow: hidden;
+          }
+          .bo3
+          {
+               height: 50px;
+               width: 50px;
+               margin: auto;
+               overflow: hidden;
+               clear: left;
+               background-color: aquamarine;
+               border:2px solid;
+          }
+          .layout
+          {
+               box-sizing: content-box;
+               border: 2px solid;
+               display: inline-flex;
+               padding: 2px;
+               width: 200px;
+               height: 200px;
+          }
+          .layout .boxx1,.boxx3
+          {
+               border: 2px solid;
+               
+               height: 80px;
+               width:50px;
+               float: right;
+          }
+          
+          .boxx2
+          {
+               border: 2px solid;
+               height: 80px;
+               width:50px;
+               clear: left;
+               
+          }
+          .img
+          {
+          border: 2px solid;
+          box-sizing: border-box;
+          }
+          .img img
+          {
+               position: relative;
+               margin-left: 20px;
+          }
+          .flexbox
+          {
+               position: relative;
+               top: 50px;
+               border: 2px solid;
+               display: flex;
+               padding:10px;
+               background-color: #14d0da;
+               flex-direction:row-reverse;
+          }
+          .flexbox>div
+          {
+               text-align: center;
+               
+               border:2px solid;
+               height: 70px;
+               width: 70px;
+               background-color: antiquewhite;
+          }
